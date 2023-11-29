@@ -11,7 +11,7 @@ while True:
         V = visualizar;
         P = parar.
     """)
-    conf = input('Deseja adicionar, remover, parar? \n').lower()
+    conf = input('Deseja adicionar, remover, visualizar ou parar? \n').lower()
     match conf:
         case 'a':
                 nomeAluno = input('Digite o nome do aluno: \n').lower()
